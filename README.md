@@ -101,3 +101,83 @@ EduNexa is an **AI-powered learning platform** designed to **revolutionize educa
 5️⃣ **Earn badges & rewards through gamified learning modules**  
 
 ---
+
+## ⚡ Installation  
+1️⃣ **Clone the Repository:**  
+```bash   
+git clone https://github.com/yourusername/EduNexa--1.git  
+cd EduNexa--1  
+```  
+
+2️⃣ **Create & Activate Virtual Environment:**  
+```sh  
+python -m venv venv  
+source venv/bin/activate   # For macOS/Linux  
+venv\Scripts\activate    # For Windows  
+```  
+
+3️⃣ **Install Dependencies:**  
+```sh  
+pip install -r requirements.txt  
+```  
+
+4️⃣ **Set Up API Keys (Gemini API):**  
+Create a `.env` file and add your Gemini API Key:  
+```env  
+GEMINI_API_KEY=your_api_key_here  
+```  
+
+5️⃣ **Run the Application:**  
+**Backend:**
+```sh  
+python app.py
+```  
+Access EduNexa backend at **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)**  
+
+**Frontend:**
+```
+cd frontend
+npm install
+npm run dev
+```
+Access EduNexa frontend at **[http://localhost:5173/](http://localhost:5173/)**  
+
+## ⚠️ Caution  
+
+### 🚨 Firebase Configuration Required  
+> ⚠️ Firebase Configuration Required: Add your Firebase credentials in `firebase.js` file to enable authentication and database services.  
+> ⚠️ Get your Firebase configurations from [**Firebase Console**](https://firebase.google.com/) before running the application.
+>
+>**Showcase:** 
+```sh
+const firebaseConfig = {
+  apiKey: you_api_key,
+  authDomain: your_authDomain,
+  projectId: your_projectId,
+  storageBucket: your_storageBucket,
+  messagingSenderId: your_messagingSenderId,
+  appId: your_appId,
+  measurementId: your_measurementId,
+};
+```
+
+### 🔑 Gemini API Key Setup  
+> ⚠️ Please add your Gemini API key in the `.env` file before running the application.
+> 
+> **Showcase:**  
+``` .env 
+GEMINI_API_KEY=your_api_key_here
+``` 
+
+---
+
+## 🤝 Contributing  
+Want to contribute? 🎉 Fork the repo, make your improvements, and submit a PR!  
+
+- **🐞 Report Bugs** – Found an issue? Let us know!  
+- **💡 Feature Requests** – Have an idea? We'd love to hear it!  
+
+## 🔗 Connect with us  
+* [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tulu-g559)  
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tulug559/)  
+* [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayonpaul8906@gmail.com)**ayonpaul8906@gmail.com**
